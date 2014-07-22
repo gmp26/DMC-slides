@@ -44,6 +44,13 @@
 			<div class="slides">
 
 				<section>
+					<section><h1>Design</h1></section>
+					<section data-markdown="design/aims.md">
+					</section>
+					<section data-markdown="design/index.md">
+					</section>
+					<section data-markdown="design/studentBrief.md">
+					</section>
 					<section data-markdown="design/aday/index.md">
 					</section>
 					<section data-markdown="design/aday/extras1.md">
@@ -81,7 +88,7 @@
 				</section>
 
 				<section>
-					<section data-markdown="longpages/Gallery:zoo/index.md">
+					<section data-markdown="longpages/GalleryZoo/index.md">
 					</section>
 
 					<section data-markdown="longpages/Open Spaces/index.md">
@@ -429,14 +436,14 @@ function linkify( selector ) {
 				controls: true,
 				progress: true,
 				history: true,
-				center: true,
+				center: false,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
+				parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				parallaxBackgroundSize: '2100px 900px',
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
